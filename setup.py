@@ -9,12 +9,12 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="pypi-banner-generator",
     version="2.0.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="mrbeandev",
+    author_email="mrbeandev@gmail.com",
     description="A professional banner generator for PyPI packages with multiple themes and styles",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/PYPI-Banner-Generator",
+    url="https://github.com/mrbeandev/PYPI-Banner-Generator",
     packages=find_packages(),
     classifiers=[
         "Development Status :: 4 - Beta",
