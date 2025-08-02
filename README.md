@@ -266,9 +266,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/yourusername/PYPI-Banner-Generator/issues)
-- 💡 **Feature Requests**: [Request a feature](https://github.com/yourusername/PYPI-Banner-Generator/issues)
-- 💬 **Questions**: [Start a discussion](https://github.com/yourusername/PYPI-Banner-Generator/discussions)
+- 🐛 **Bug Reports**: [Open an issue](https://github.com/mrbeandev/PYPI-Banner-Generator/issues)
+- 💡 **Feature Requests**: [Request a feature](https://github.com/mrbeandev/PYPI-Banner-Generator/issues)
+- 💬 **Questions**: [Contact Developer](https://t.me/mrbeandev)
 
 ---
 
