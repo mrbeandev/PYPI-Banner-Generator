@@ -30,34 +30,34 @@ ALL_THEMES = {
         'name': 'professional_light',
         'description': 'Clean white background - Corporate style',
         'type': 'professional',
-        'bg': '#f8fafc',
-        'card': '#ffffff',
-        'primary': '#0f172a',
-        'secondary': '#475569',
-        'accent': '#2563eb',
+        'bg': '#ffffff',
+        'card': '#f8fafc',
+        'primary': '#1e293b',
+        'secondary': '#64748b',
+        'accent': '#3b82f6',
         'border': '#e2e8f0'
     },
     '2': {
         'name': 'professional_dark',
         'description': 'Dark slate background - Modern tech style',
         'type': 'professional',
-        'bg': '#020617',
-        'card': '#0f172a',
-        'primary': '#f8fafc',
-        'secondary': '#94a3b8',
-        'accent': '#38bdf8',
-        'border': '#1e293b'
+        'bg': '#0f172a',
+        'card': '#1e293b',
+        'primary': '#f1f5f9',
+        'secondary': '#cbd5e1',
+        'accent': '#60a5fa',
+        'border': '#334155'
     },
     '3': {
-        'name': 'minimal_light',
+        'name': 'minimal_clean',
         'description': 'Ultra-minimal white - Very clean',
         'type': 'minimal',
         'bg': '#ffffff',
-        'primary': '#111827',
+        'primary': '#1f2937',
         'secondary': '#6b7280',
         'accent': '#10b981',
         'card': '#f9fafb',
-        'border': '#f3f4f6'
+        'border': '#e5e7eb'
     },
     '4': {
         'name': 'minimal_dark',
@@ -65,55 +65,58 @@ ALL_THEMES = {
         'type': 'minimal',
         'bg': '#111827',
         'primary': '#f9fafb',
-        'secondary': '#9ca3af',
-        'accent': '#22d3ee',
+        'secondary': '#d1d5db',
+        'accent': '#60a5fa',
         'card': '#1f2937',
         'border': '#374151'
     },
     '5': {
-        'name': 'corporate_blue',
-        'description': 'A professional and trustworthy blue theme',
-        'type': 'professional',
-        'bg': '#f0f9ff',
-        'card': '#ffffff',
-        'primary': '#075985',
-        'secondary': '#0ea5e9',
-        'accent': '#0369a1',
-        'border': '#e0f2fe'
-    },
-    '6': {
-        'name': 'monochrome',
-        'description': 'Elegant and modern monochrome design',
-        'type': 'minimal',
-        'bg': '#e5e5e5',
-        'card': '#fafafa',
-        'primary': '#262626',
-        'secondary': '#737373',
-        'accent': '#525252',
-        'border': '#d4d4d4'
-    },
-    '7': {
-        'name': 'tech_green',
-        'description': 'A modern, tech-focused green theme',
-        'type': 'professional',
-        'bg': '#f0fdf4',
-        'card': '#ffffff',
-        'primary': '#14532d',
-        'secondary': '#15803d',
-        'accent': '#22c55e',
-        'border': '#bbf7d0'
-    },
-    '8': {
-        'name': 'gradient_twilight',
-        'description': 'Deep blue to purple gradient - Elegant',
+        'name': 'gradient_blue',
+        'description': 'Blue gradient background - Dynamic',
         'type': 'gradient',
-        'bg_start': '#0f172a',
-        'bg_end': '#4338ca',
+        'bg_start': '#667eea',
+        'bg_end': '#764ba2',
         'primary': '#ffffff',
-        'secondary': '#e0e7ff',
-        'accent': '#a5b4fc',
+        'secondary': '#f1f5f9',
+        'accent': '#60a5fa',
         'card': '#1e293b',
         'border': '#334155'
+    },
+    '6': {
+        'name': 'gradient_purple',
+        'description': 'Purple gradient background - Creative',
+        'type': 'gradient',
+        'bg_start': '#a8edea',
+        'bg_end': '#fed6e3',
+        'primary': '#1f2937',
+        'secondary': '#374151',
+        'accent': '#8b5cf6',
+        'card': '#f3f4f6',
+        'border': '#d1d5db'
+    },
+    '7': {
+        'name': 'gradient_sunset',
+        'description': 'Sunset gradient background - Warm',
+        'type': 'gradient',
+        'bg_start': '#fa709a',
+        'bg_end': '#fee140',
+        'primary': '#ffffff',
+        'secondary': '#fef7ff',
+        'accent': '#f59e0b',
+        'card': '#1f2937',
+        'border': '#374151'
+    },
+    '8': {
+        'name': 'gradient_ocean',
+        'description': 'Ocean gradient background - Cool',
+        'type': 'gradient',
+        'bg_start': '#4facfe',
+        'bg_end': '#00f2fe',
+        'primary': '#ffffff',
+        'secondary': '#f0fdfa',
+        'accent': '#06b6d4',
+        'card': '#134e4a',
+        'border': '#0f766e'
     },
     '9': {
         'name': 'modern_glassmorphism',
@@ -127,16 +130,15 @@ ALL_THEMES = {
         'border': '#334155'
     },
     '10': {
-        'name': 'gradient_lush',
-        'description': 'A lush and vibrant green gradient',
-        'type': 'gradient',
-        'bg_start': '#4ade80',
-        'bg_end': '#059669',
-        'primary': '#ffffff',
-        'secondary': '#d1fae5',
-        'accent': '#a7f3d0',
-        'card': '#064e3b',
-        'border': '#047857'
+        'name': 'neon_cyber',
+        'description': 'Neon cyberpunk style - Electric',
+        'type': 'neon',
+        'bg': '#0a0a0a',
+        'primary': '#00ff41',
+        'secondary': '#39ff14',
+        'accent': '#ff0080',
+        'card': '#1a1a1a',
+        'border': '#00ff41'
     },
     '11': {
         'name': 'material_design',
@@ -150,16 +152,16 @@ ALL_THEMES = {
         'border': '#e0e0e0'
     },
     '12': {
-        'name': 'gradient_sunset',
-        'description': 'Sunset gradient background - Warm',
-        'type': 'gradient',
-        'bg_start': '#fa709a',
-        'bg_end': '#fee140',
+        'name': 'retro_synthwave',
+        'description': 'Retro synthwave aesthetic - 80s vibes',
+        'type': 'synthwave',
+        'bg_start': '#ff006e',
+        'bg_end': '#8338ec',
         'primary': '#ffffff',
-        'secondary': '#fef7ff',
-        'accent': '#f59e0b',
-        'card': '#1f2937',
-        'border': '#374151'
+        'secondary': '#ffeedd',
+        'accent': '#ffbe0b',
+        'card': '#3a0ca3',
+        'border': '#7209b7'
     }
 }
 
@@ -415,7 +417,7 @@ class UltimateBannerGenerator:
     def show_welcome(self):
         """Show enhanced welcome message"""
         print("🎨" + "="*60 + "🎨")
-        print("           ULTIMATE PYPI BANNER GENERATOR v2.1")
+        print("           ULTIMATE PYPI BANNER GENERATOR v2.0")
         print("    Professional • Minimal • Gradient • Modern Themes")
         print("       Single • Multiple • Batch • Category Generation")
         print("🎨" + "="*60 + "🎨")
@@ -506,10 +508,10 @@ class UltimateBannerGenerator:
         
         # Group themes by category
         categories = {
-            'Professional': ['1', '2', '5', '7'],
-            'Minimal': ['3', '4', '6'],
-            'Gradient': ['8', '10', '12'],
-            'Modern': ['9', '11']
+            'Professional': ['1', '2'],
+            'Minimal': ['3', '4'],
+            'Gradient': ['5', '6', '7', '8'],
+            'Modern': ['9', '10', '11', '12']
         }
         
         for category, theme_keys in categories.items():
@@ -521,8 +523,8 @@ class UltimateBannerGenerator:
             print()
         
         while True:
-            choice = input("Select theme (1-12): ")
-
+            choice = input("Select theme (1-12): ").strip()
+            
             if choice in ALL_THEMES:
                 selected_theme = ALL_THEMES[choice]
                 print(f"✅ Selected: {selected_theme['name'].replace('_', ' ').title()}")
@@ -590,22 +592,22 @@ class UltimateBannerGenerator:
         categories = {
             '1': {
                 'name': 'Professional',
-                'themes': ['1', '2', '5', '7'],
+                'themes': ['1', '2'],
                 'description': 'Corporate and business styles'
             },
             '2': {
                 'name': 'Minimal',
-                'themes': ['3', '4', '6'],
+                'themes': ['3', '4'],
                 'description': 'Clean and simple designs'
             },
             '3': {
                 'name': 'Gradient',
-                'themes': ['8', '10', '12'],
+                'themes': ['5', '6', '7', '8'],
                 'description': 'Colorful gradient backgrounds'
             },
             '4': {
                 'name': 'Modern',
-                'themes': ['9', '11'],
+                'themes': ['9', '10', '11', '12'],
                 'description': 'Trendy and experimental styles'
             }
         }
@@ -814,7 +816,7 @@ Interactive mode allows you to:
     parser.add_argument(
         '--version', '-v',
         action='version',
-        version='Ultimate PyPI Banner Generator v2.1.0'
+        version='Ultimate PyPI Banner Generator v2.0.0'
     )
     
     args = parser.parse_args()
@@ -825,10 +827,10 @@ Interactive mode allows you to:
         print("=" * 50)
         
         categories = {
-            'Professional': ['1', '2', '5', '7'],
-            'Minimal': ['3', '4', '6'],
-            'Gradient': ['8', '10', '12'],
-            'Modern': ['9', '11']
+            'Professional': ['1', '2'],
+            'Minimal': ['3', '4'],
+            'Gradient': ['5', '6', '7', '8'],
+            'Modern': ['9', '10', '11', '12']
         }
         
         for category, theme_keys in categories.items():
@@ -912,7 +914,5 @@ Interactive mode allows you to:
     # Fall back to full interactive mode
     generator.run()
 
-if __name__ == "__main__":
-    main()
 if __name__ == "__main__":
     main()
